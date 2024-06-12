@@ -1,0 +1,134 @@
+.body {
+    margin: 0;
+    font-family: "Arial";
+}
+.header {
+    width: 100%;
+    height: 55px;
+    margin: auto;
+    background-color: #1f1f56;
+}
+
+a {
+    text-decoration: none;
+    font-size: 14pt;
+    letter-spacing: 2px;
+    color: #b1b1d2;
+    font-family: Arial;
+    padding: 15px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 15px;
+}
+
+.aside ul {
+    display: block; 
+}
+
+.aside a {
+    font-size: 14px;
+color: #666666;
+} 
+
+container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+.logo {
+    display: inline-block;
+    padding: 8px 0;
+    margin-left: 120px;
+}
+
+.contact { 
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    float: right;
+}
+
+.phones{
+    margin: 0 auto;
+} 
+
+.email addres a {
+    font-size: 16px;
+    text-decoration: underline;
+    color: #25252c;
+   margin:  auto;
+}
+
+.order-call-btn {
+width: 200px;
+height: 51px;
+border-radius: 25px;
+background-color: #ffffff;
+border: 2px solid #fd8300;
+}
+
+.order-call-btn p {
+font-size: 16px;
+color: #25252c;
+font-weight: bold;
+font-family: "Arial";
+margin-left: 30px;
+}
+
+.main-content {
+    padding: 0px 120px;
+    width: 669px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.projects h2 {
+font-size: 24px;
+padding: 0px 120px;
+color: #24242b;
+font-weight: 700;
+font-family: "Roboto Slab";
+}
+
+.aside {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image-container {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+    height: 205px;
+    background-color: #ededf5;
+}
+.property-details ul {
+    display: block;
+}
+
+.footer-navigation ul {
+    display: inline-block
+}
+
+.footer-copyright {
+    width: 100%;
+    height: 45px;
+    background-color: #dcdce6;
+}
+
+.footer-copyright p {
+    text-align: center;
+    margin: 0;
+}
