@@ -6,10 +6,12 @@
     width: 100%;
     height: 55px;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
     background-color: #1f1f56;
 }
 
-a {
+.menu a {
     text-decoration: none;
     font-size: 14pt;
     letter-spacing: 2px;
@@ -20,19 +22,21 @@ a {
 
 ul {
     display: flex;
-    justify-content: center;
+    margin: 0;
+    padding: 0px;
     list-style-type: none;
-    padding: 15px;
 }
 
-.aside ul {
-    display: block; 
+.icon-media {
+    display: flex;
+    
 }
 
-.aside a {
-    font-size: 14px;
-color: #666666;
-} 
+.icon-media a {
+    margin-right: 24px;
+}
+
+
 
 container {
     width: 100%;
@@ -51,7 +55,6 @@ container {
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     float: right;
 }
 
@@ -102,24 +105,48 @@ font-family: "Roboto Slab";
     justify-content: flex-end;
 }
 
+.aside ul {
+    display: block; 
+}
+
+.aside a {
+    font-size: 14px;
+    color: #666666;
+    text-decoration: none;
+} 
+
 .image-container {
     display: flex;
 }
 
 .footer {
     display: flex;
-    justify-content: center;
-    padding: 0;
+    justify-content: space-between;
+    padding: 80px;
+    margin: 10px;
     width: 100%;
     height: 205px;
     background-color: #ededf5;
 }
+
 .property-details ul {
-    display: block;
+    display: block; 
+}
+
+.property-details a {
+    text-decoration: none;
 }
 
 .footer-navigation ul {
-    display: inline-block
+    display: inline-block;
+}
+
+.footer-navigation a {
+   text-decoration: none; 
+}
+
+.contact-email a {
+    text-decoration: none;
 }
 
 .footer-copyright {
@@ -131,4 +158,5 @@ font-family: "Roboto Slab";
 .footer-copyright p {
     text-align: center;
     margin: 0;
+    padding: 15px;
 }
