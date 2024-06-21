@@ -2,13 +2,28 @@
     margin: 0;
     font-family: "Arial";
 }
+
 .header {
-    width: 100%;
+    max-width: 1280px;
     height: 55px;
     margin: auto;
+    background-color: #1f1f56;
+}
+
+.wrapper {
     display: flex;
     justify-content: space-between;
-    background-color: #1f1f56;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-left: 50px;
+    padding: 20px;
+    margin: 0;
+    padding: 0px;
 }
 
 .menu a {
@@ -20,69 +35,86 @@
     padding: 15px;
 }
 
-ul {
-    display: flex;
-    margin: 0;
-    padding: 0px;
-    list-style-type: none;
-}
-
 .icon-media {
     display: flex;
-    
+    align-items: center;;
 }
 
-.icon-media a {
-    margin-right: 24px;
+.icon-media ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 20px;
 }
 
-
-
-container {
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    
+.icon-media ul li {
+    margin-left: 20px; 
 }
 
-.logo {
-    display: inline-block;
-    padding: 8px 0;
-    margin-left: 120px;
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
 
-.contact { 
-    margin: 0 auto;
+.contact {
+    margin-left: 20px;
     display: flex;
     align-items: center;
-    float: right;
 }
 
-.phones{
+.phones {
     margin: 0 auto;
-} 
+}
 
 .email addres a {
     font-size: 16px;
     text-decoration: underline;
     color: #25252c;
-   margin:  auto;
+    margin: auto;
 }
 
 .order-call-btn {
-width: 200px;
-height: 51px;
-border-radius: 25px;
-background-color: #ffffff;
-border: 2px solid #fd8300;
+    width: 200px;
+    height: 51px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    border: 2px solid #fd8300;
 }
 
 .order-call-btn p {
-font-size: 16px;
-color: #25252c;
-font-weight: bold;
-font-family: "Arial";
-margin-left: 30px;
+    font-size: 16px;
+    color: #25252c;
+    font-weight: bold;
+    font-family: "Arial";
+    margin-left: 30px;
+}
+
+.phones, .email, .order-call-btn {
+    padding: 5px 20px;
+}
+
+.caption h3 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+
+.caption p {
+    font-size: 14px;
+    font-family: "Arial";
+    text-align: center;
+}
+
+.caption p b {
+    font-size: 40px;
+    color: #fd8300;
+    font-weight: bold;
+    font-family: "Arial";
 }
 
 .main-content {
@@ -92,12 +124,21 @@ margin-left: 30px;
     line-height: 24px;
 }
 
+.main-content a {
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #fd8300;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
 .projects h2 {
-font-size: 24px;
-padding: 0px 120px;
-color: #24242b;
-font-weight: 700;
-font-family: "Roboto Slab";
+    font-size: 24px;
+    padding: 0px 120px;
+    color: #24242b;
+    font-weight: 700;
+    font-family: "Roboto Slab";
 }
 
 .aside {
@@ -106,47 +147,90 @@ font-family: "Roboto Slab";
 }
 
 .aside ul {
-    display: block; 
+    display: block;
+    list-style-type: none;
 }
 
 .aside a {
     font-size: 14px;
     color: #666666;
     text-decoration: none;
-} 
+}
 
 .image-container {
     display: flex;
+    justify-content: space-around;
+    
+}
+
+.projects {
+    width: 220px;
+    height: 53px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #9999a6;
+    font-family: "Arial";
+}
+
+.project picture {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+.project figcaption {
+    margin-top: 10px;
 }
 
 .footer {
     display: flex;
     justify-content: space-between;
-    padding: 80px;
-    margin: 10px;
-    width: 100%;
+    margin: auto;
+    max-width: 960rem;
     height: 205px;
     background-color: #ededf5;
 }
 
 .property-details ul {
-    display: block; 
+    display: block;
+    margin: 0;
+    padding: 0;
 }
 
 .property-details a {
     text-decoration: none;
+    line-height: 26px;
 }
 
 .footer-navigation ul {
     display: inline-block;
+    list-style-type: none;
 }
 
 .footer-navigation a {
-   text-decoration: none; 
+    text-decoration: none;
+    line-height: 26px;
 }
 
-.contact-email a {
-    text-decoration: none;
+.footer-social {
+    font-size: 18px;
+    line-height: 24px;
+    color: #25252c;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.contact-email {
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #25252c;
+    font-family: "Arial";
 }
 
 .footer-copyright {
